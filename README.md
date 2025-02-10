@@ -39,4 +39,8 @@ https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&un
 
 ## Author
 Developed by Pranjal Wadher
+---
+### 🔗 **Project Preview**
+https://pranjalw23.github.io/weather
+
 
