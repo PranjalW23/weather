@@ -1,36 +1,42 @@
-# FSD Exp 1: BLOG PAGE
+# Exp 2: Weather Data Using AJAX
 
-## 1.1 Aim
-Develop a straightforward blog page using **HTML, CSS, and Bootstrap**. The blog page should incorporate **images, embedded videos, and a contact form**.
+## Overview
+This is a real-time weather web application built using HTML, CSS, and JavaScript. It fetches weather data from the OpenWeatherMap API using AJAX and displays it in a user-friendly format.
 
-## 1.2 Course Outcome
-Build a website using **HTML, CSS, and JavaScript**.
+## Features
+- User can enter a city name to get real-time weather information.
+- Uses AJAX (Fetch API) to retrieve data from OpenWeatherMap API.
+- Displays temperature, humidity, wind speed, pressure, sunrise, sunset, and weather condition.
+- Shows corresponding weather icons using symbols (e.g., ☀️ for clear, 🌧️ for rain, etc.).
+- Includes a loading indicator while fetching data.
+- Bootstrap-based responsive design.
 
-## 1.3 Learning Objectives
-- Demonstrate the use of **HTML5** for structuring web pages.
-- Apply **CSS** for styling and layout enhancements.
-- Utilize the **Bootstrap Framework** for designing attractive and responsive static web pages.
+## Technologies Used
+- HTML
+- CSS (Bootstrap for styling)
+- JavaScript (AJAX for API requests)
+- OpenWeatherMap API
 
-## 1.4 Program and Output
-The project consists of a **blog page** with the following features:
-- A **navigation bar** for easy navigation.
-- A **hero section** with a welcome message.
-- An **embedded YouTube video** related to Meghalaya.
-- A **featured image** showcasing Meghalaya’s beauty.
-- A **gallery section** displaying multiple images.
-- A **contact form** for user interaction.
-- A **responsive footer** with copyright information.
+## How to Use
+1. Open the `index.html` file in a browser.
+2. Enter a city name in the input field.
+3. Click the 'Get Weather' button.
+4. The weather details will be displayed on the screen.
 
-## 1.5 Conclusion
-In this experiment, we successfully developed a simple yet visually appealing **blog page** using **HTML, CSS, and Bootstrap**. The page includes **structured content, responsive design, embedded videos, images, and a contact form**, ensuring an engaging user experience. By leveraging Bootstrap’s **grid system and pre-built components**, we enhanced the layout and responsiveness without extensive custom styling. This project reinforced our understanding of **HTML5, CSS3, and Bootstrap**, enabling us to create static web pages efficiently.
+## API Configuration
+- This project uses the OpenWeatherMap API.
+- Replace `apiKey` in the JavaScript file with your own API key from OpenWeatherMap.
 
----
-### 🚀 **Technologies Used**
-- **HTML5**
-- **CSS3**
-- **Bootstrap 5**
-- **JavaScript (optional for future enhancements)**
+## Example API Request
+```
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric
+```
 
----
-### 🔗 **Project Preview**
-https://pranjalw23.github.io/Blog
+## Future Improvements
+- Add auto-suggestions for city names.
+- Display a 5-day weather forecast.
+- Improve UI with more styling and animations.
+
+## Author
+Developed by Pranjal Wadher
+
